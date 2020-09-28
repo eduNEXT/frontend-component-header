@@ -14,9 +14,6 @@
     "start": "fedx-scripts webpack-dev-server --progress",
     "test": "fedx-scripts jest --coverage"
   },
-  "files": [
-    "/dist"
-  ],
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint",
