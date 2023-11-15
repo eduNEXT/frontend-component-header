@@ -1,6 +1,6 @@
 {
-  "name": "@edx/frontend-component-header",
-  "version": "1.0.0-semantically-released",
+  "name": "@edunext/frontend-component-header",
+  "version": "5.0.0-alpha.5",
   "description": "The standard header for Open edX",
   "main": "dist/index.js",
   "publishConfig": {
@@ -24,20 +24,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/frontend-component-header.git"
+    "url": "git+https://github.com/edunext/frontend-component-header-edunext.git"
   },
   "author": "edX",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/openedx/frontend-component-header/issues"
+    "url": "https://github.com/edunext/frontend-component-header/issues"
   },
-  "homepage": "https://github.com/openedx/frontend-component-header#readme",
+  "homepage": "https://github.com/edunext/frontend-component-header#readme",
   "devDependencies": {
-    "@edx/paragon": "21.0.0-alpha.38",
+    "@edx/paragon": "22.0.0-alpha.13",
     "@edx/brand": "npm:@edx/brand-openedx@1.2.0",
     "@edx/browserslist-config": "^1.1.1",
     "@edx/frontend-build": "12.9.4",
-    "@edx/frontend-platform": "5.0.0",
+    "@edx/frontend-platform": "npm:@edunext/frontend-platform@3.7.0-alpha.13",
     "@edx/reactifex": "^2.1.1",
     "@testing-library/dom": "9.3.1",
     "@testing-library/jest-dom": "5.17.0",
@@ -68,8 +68,8 @@
     "react-transition-group": "4.4.5"
   },
   "peerDependencies": {
-    "@edx/frontend-platform": "^4.0.0 || ^5.0.0",
-    "@edx/paragon": "21.0.0-alpha.38",
+    "@edx/frontend-platform": "^4.0.0 || ^5.0.0 || >3.7.0-alpha.1",
+    "@edx/paragon": ">=22.0.0-alpha.1",
     "prop-types": "^15.5.10",
     "react": "^16.9.0 || ^17.0.0",
     "react-dom": "^16.9.0 || ^17.0.0"
