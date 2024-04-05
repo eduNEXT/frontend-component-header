@@ -35,8 +35,8 @@
   "devDependencies": {
     "@edx/brand": "npm:@edx/brand-openedx@1.2.0",
     "@edx/browserslist-config": "^1.1.1",
-    "@edx/frontend-build": "12.9.4",
-    "@edx/frontend-platform": "5.0.0",
+    "@edx/frontend-build": "github:edunext/frontend-build#dcoa/css-variables-13.0.1",
+    "@edx/frontend-platform": "file:../frontend-platform/dist",
     "@edx/reactifex": "^2.1.1",
     "@testing-library/dom": "9.3.1",
     "@testing-library/jest-dom": "5.17.0",
@@ -56,7 +56,7 @@
     "redux-saga": "1.2.3"
   },
   "dependencies": {
-    "@edx/paragon": "20.46.2",
+    "@edx/paragon": "npm:@openedx/paragon@22.0.0-alpha.25",
     "@fortawesome/fontawesome-svg-core": "6.4.2",
     "@fortawesome/free-brands-svg-icons": "6.4.2",
     "@fortawesome/free-regular-svg-icons": "6.4.2",
@@ -68,7 +68,7 @@
     "react-transition-group": "4.4.5"
   },
   "peerDependencies": {
-    "@edx/frontend-platform": "^4.0.0 || ^5.0.0",
+    "@edx/frontend-platform": "^4.0.0 || ^5.0.0 || ^5.5.0-alpha.1",
     "prop-types": "^15.5.10",
     "react": "^16.9.0 || ^17.0.0",
     "react-dom": "^16.9.0 || ^17.0.0"
