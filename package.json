@@ -1,6 +1,6 @@
 {
-  "name": "@edx/frontend-component-header",
-  "version": "1.0.0-semantically-released",
+  "name": "@edunext/frontend-component-header",
+  "version": "4.6.0-alpha.1",
   "description": "The standard header for Open edX",
   "main": "dist/index.js",
   "publishConfig": {
@@ -24,14 +24,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/frontend-component-header.git"
+    "url": "git+https://github.com/edunext/frontend-component-header-edunext.git"
   },
   "author": "edX",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/openedx/frontend-component-header/issues"
+    "url": "https://github.com/edunext/frontend-component-header-edunext/issues"
   },
-  "homepage": "https://github.com/openedx/frontend-component-header#readme",
+  "homepage": "https://github.com/edunext/frontend-component-header-edunext#readme",
   "devDependencies": {
     "@edx/brand": "npm:@edx/brand-openedx@1.2.0",
     "@edx/browserslist-config": "^1.1.1",
